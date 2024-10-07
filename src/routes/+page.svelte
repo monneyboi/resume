@@ -1,49 +1,57 @@
 <script lang="ts">
 	import '@fontsource-variable/rubik';
 	import '@fontsource-variable/roboto-slab';
+
+	import profile from '$lib/assets/profile.jpg';
 </script>
 
-<h1>Johan Schuijt</h1>
-<p>Makes machines empower humans. Experienced systems-thinker.</p>
-<address>
-	Wollbell 22<br />
-	6094 Axams<br />
-	<a href="tel:+31651952461">+31651952461</a><br />
-	<a href="mailto:johanschuijt@hotmail.com">johanschuijt@hotmail.com</a>
-</address>
+<header>
+	<div>
+		<h1>Johan Schuijt</h1>
+		<p>Makes machines empower humans. Experienced systems-thinker.</p>
+		<address>
+			Wollbell 22<br />
+			6094 Axams<br />
+			<a href="tel:+31651952461">+31651952461</a><br />
+			<a href="mailto:johanschuijt@hotmail.com">johanschuijt@hotmail.com</a>
+		</address>
+	</div>
+
+	<img src={profile} alt="profile" />
+</header>
 
 <h2>Experience</h2>
 
-<div>
+<section>
 	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
 	<p class="year">2021 - PRESENT</p>
 	<p>
 		Design and implementation of the data infrastructure for a investigative journalism platform.
 		UX/UI design and development of a RAG application for PDF files.
 	</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
 	<p class="year">2017 - 2021</p>
 	<p>Design and implementation of the infrastructure and backend for a CI/CD hosting company.</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
 	<p class="year">2014 - 2017</p>
 	<p>Project based freelancer in the capacity of developer or both developer and UI/UX designer.</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>1200WD</strong>, Amsterdam — <i>Front-end Developer</i></h3>
 	<p class="year">2012 - 2014</p>
 	<p>UI design and front-end development of e-commerce websites.</p>
-</div>
+</section>
 
 <h2>Skills</h2>
 
-<div>
+<section>
 	<h3><strong>Programming</strong></h3>
 	<table>
 		<tr>
@@ -83,74 +91,89 @@
 			<td>1</td>
 		</tr>
 	</table>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Tools</strong></h3>
 	<p>
 		GNU/Linux, Vim, Git, Docker/Compose, PostgreSQL, Mysql/MariaDB, ElasticSearch/OpenSearch,
 		RabbitMQ, Svelte, React, Kubernetes, ArgoCD, Argo Workflows, Ansible, LXD.
 	</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Languages</strong></h3>
 	<p>English, Dutch, German.</p>
-</div>
+</section>
 
 <h2>Education</h2>
 
-<div>
+<section>
 	<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
 	<p class="year">2010 - 2011</p>
 	<p>Followed several classes. Stopped before completion.</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Hogeschool van Amsterdam</strong>, Amsterdam — <i>Game Development</i></h3>
 	<p class="year">2009 - 2010</p>
 	<p>Followed several classes. Stopped before completion.</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Luzac College</strong>, Alkmaar — <i>Havo</i></h3>
 	<p class="year">2008 - 2009</p>
 	<p>
 		Finished a senior general secondary education. Followed exact sciences and english classes on
 		the pre-scientific level.
 	</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Horizon College</strong>, Alkmaar — <i>ICT</i></h3>
 	<p class="year">2007 - 2008</p>
 	<p>Followed several classes. Stopped before completion.</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>GSG Schagen</strong>, Schagen — <i>Gymnasium</i></h3>
 	<p class="year">2002 - 2007</p>
 	<p>Followed exact sciences track pre university education. Stopped before completion.</p>
-</div>
+</section>
 
 <h2>Projects</h2>
 
-<div>
+<section>
 	<h3><strong>Drum Machine</strong> — <i>MIDI step sequencer</i></h3>
 	<p class="year">2019 - 2020</p>
 	<p>
 		Built a 16 channel MIDI step sequencer for the AKAI APC40 & APC20 controllers. Developed in Rust
 		on the JACK audio stack.
 	</p>
-</div>
+</section>
 
-<div>
+<section>
 	<h3><strong>Crypto Miner</strong> — <i>Litecoin GPU miner </i></h3>
 	<p class="year">2013</p>
 	<p>Built a 4 GPU Litecoin mining rig.</p>
-</div>
+</section>
 
 <style>
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	img {
+		width: 15rem;
+		aspect-ratio: 1;
+		border-radius: 50%;
+	}
+
+	address {
+		font-style: normal;
+	}
+
 	h1 {
 		font-weight: 400;
 		text-transform: uppercase;
@@ -171,11 +194,11 @@
 		color: #a5a5a5;
 	}
 
-	div {
+	section {
 		margin-bottom: 1.5rem;
 	}
 
-	div p {
+	section p {
 		margin: 0.5rem 0;
 	}
 
