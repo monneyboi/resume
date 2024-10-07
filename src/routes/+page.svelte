@@ -1,0 +1,158 @@
+<script lang="ts">
+	import '@fontsource-variable/rubik';
+	import '@fontsource-variable/roboto-slab';
+</script>
+
+<h1>Johan Schuijt</h1>
+<p>Wants machines to empower humans. Experienced systems-thinker.</p>
+
+<h2>Experience</h2>
+
+<div>
+	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
+	<p><em>2021 - PRESENT</em></p>
+	<p>
+		Data Team. Design and implementation of the data infrastructure. UX/UI design and development of
+		a RAG application for PDF files.
+	</p>
+</div>
+
+<div>
+	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
+	<p><em>2017 - 2021</em></p>
+	<p>
+		Technical founder. Design and implementation of the infrastructure. Backend development of
+		custom tooling.
+	</p>
+</div>
+
+<div>
+	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
+	<p><em>2014 - 2017</em></p>
+	<p>
+		Involved as a freelancer in several projects, in the capacity of developer both developer and
+		UI/UX designer.
+	</p>
+</div>
+
+<div>
+	<h3><strong>1200WD</strong>, Amsterdam — <i>Front-end Developer</i></h3>
+	<p><em>2012 - 2014</em></p>
+	<p>UI design and front-end development of e-commerce websites.</p>
+</div>
+
+<h2>Skills</h2>
+
+<div>
+	<h3><strong>Programming</strong></h3>
+	<table>
+		<tr>
+			<th>Language</th>
+			<th>Years</th>
+		</tr>
+		<tr>
+			<td>Typescript/Javascript</td>
+			<td>15+</td>
+		</tr>
+		<tr>
+			<td>CSS</td>
+			<td>15+</td>
+		</tr>
+		<tr>
+			<td>PHP</td>
+			<td>10+</td>
+		</tr>
+		<tr>
+			<td>Python</td>
+			<td>10+</td>
+		</tr>
+		<tr>
+			<td>YAML</td>
+			<td>10+</td>
+		</tr>
+		<tr>
+			<td>Rust</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Ruby</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Java</td>
+			<td>1</td>
+		</tr>
+	</table>
+</div>
+
+<div>
+	<h3><strong>Tools</strong></h3>
+	<p>
+		GNU/Linux, Vim, Git, Docker/Compose, PostgreSQL, Mysql/MariaDB, ElasticSearch/OpenSearch,
+		RabbitMQ, Kubernetes, ArgoCD, Argo Workflows, Ansible, LXD, Svelte, React.
+	</p>
+</div>
+
+<h2>Education</h2>
+
+<div>
+	<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
+	<p><em>2010 - 2011</em></p>
+	<p>Followed several classes. Stopped before completion.</p>
+</div>
+
+<div>
+	<h3><strong>Hogeschool van Amsterdam</strong>, Amsterdam — <i>Game Development</i></h3>
+	<p><em>2009 - 2010</em></p>
+	<p>Followed several classes. Stopped before completion.</p>
+</div>
+
+<div>
+	<h3><strong>Luzac College</strong>, Alkmaar — <i>Havo</i></h3>
+	<p><em>2008 - 2009</em></p>
+	<p>
+		Finished a senior general secondary education. Followed exact sciences and english classes on
+		the pre-scientific level.
+	</p>
+</div>
+
+<h2>Projects</h2>
+
+<div>
+	<h3><strong>Drum Machine</strong> — <i>MIDI step sequencer</i></h3>
+	<p><em>2019 - 2020</em></p>
+	<p>
+		Built a 16 channel MIDI step sequencer for the AKAI APC40 & APC20 controllers. Developed in Rust
+		on the JACK audio stack.
+	</p>
+</div>
+
+<div>
+	<h3><strong>Crypto Miner</strong> — <i>Litecoin GPU miner </i></h3>
+	<p><em>2013</em></p>
+	<p>Built a 4 GPU Litecoin mining rig.</p>
+</div>
+
+<style>
+	h1 {
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 4rem;
+	}
+
+	h3 {
+		font-weight: 400;
+	}
+
+	em {
+		font-style: normal;
+	}
+
+	div {
+		margin-bottom: 2rem;
+	}
+</style>
