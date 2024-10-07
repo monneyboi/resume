@@ -47,6 +47,8 @@
 	<p>UI design and front-end development of e-commerce websites.</p>
 </div>
 
+<div class="pagebreak"></div>
+
 <h2>Skills</h2>
 
 <div>
@@ -122,6 +124,18 @@
 	</p>
 </div>
 
+<div>
+	<h3><strong>Horizon College</strong>, Alkmaar — <i>ICT</i></h3>
+	<p class="year">2007 - 2008</p>
+	<p>Followed several classes. Stopped before completion.</p>
+</div>
+
+<div>
+	<h3><strong>GSG Schagen</strong>, Schagen — <i>Gymnasium</i></h3>
+	<p class="year">2002 - 2007</p>
+	<p>Followed exact sciences track pre university education. Stopped before completion.</p>
+</div>
+
 <h2>Projects</h2>
 
 <div>
@@ -193,5 +207,11 @@
 	strong,
 	th {
 		color: #348037;
+	}
+
+	@media print {
+		.pagebreak {
+			page-break-before: always;
+		}
 	}
 </style>
