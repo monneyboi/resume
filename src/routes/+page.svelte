@@ -4,7 +4,7 @@
 </script>
 
 <h1>Johan Schuijt</h1>
-<p>Wants machines to empower humans. Experienced systems-thinker.</p>
+<p>Makes machines empower humans. Experienced systems-thinker.</p>
 <address>
 	Wollbell 22<br />
 	6094 Axams<br />
@@ -18,27 +18,21 @@
 	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
 	<p class="year">2021 - PRESENT</p>
 	<p>
-		Data Team. Design and implementation of the data infrastructure. UX/UI design and development of
-		a RAG application for PDF files.
+		Design and implementation of the data infrastructure for a investigative journalism platform.
+		UX/UI design and development of a RAG application for PDF files.
 	</p>
 </div>
 
 <div>
 	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
 	<p class="year">2017 - 2021</p>
-	<p>
-		Technical founder. Design and implementation of the infrastructure. Backend development of
-		custom tooling.
-	</p>
+	<p>Design and implementation of the infrastructure and backend for a CI/CD hosting company.</p>
 </div>
 
 <div>
 	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
 	<p class="year">2014 - 2017</p>
-	<p>
-		Involved as a freelancer in several projects, in the capacity of developer both developer and
-		UI/UX designer.
-	</p>
+	<p>Project based freelancer in the capacity of developer or both developer and UI/UX designer.</p>
 </div>
 
 <div>
@@ -46,8 +40,6 @@
 	<p class="year">2012 - 2014</p>
 	<p>UI design and front-end development of e-commerce websites.</p>
 </div>
-
-<div class="pagebreak"></div>
 
 <h2>Skills</h2>
 
@@ -97,8 +89,13 @@
 	<h3><strong>Tools</strong></h3>
 	<p>
 		GNU/Linux, Vim, Git, Docker/Compose, PostgreSQL, Mysql/MariaDB, ElasticSearch/OpenSearch,
-		RabbitMQ, Kubernetes, ArgoCD, Argo Workflows, Ansible, LXD, Svelte, React.
+		RabbitMQ, Svelte, React, Kubernetes, ArgoCD, Argo Workflows, Ansible, LXD.
 	</p>
+</div>
+
+<div>
+	<h3><strong>Languages</strong></h3>
+	<p>English, Dutch, German.</p>
 </div>
 
 <h2>Education</h2>
@@ -172,11 +169,14 @@
 
 	.year {
 		color: #a5a5a5;
-		margin-top: 0.5rem;
 	}
 
 	div {
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
+	}
+
+	div p {
+		margin: 0.5rem 0;
 	}
 
 	table {
