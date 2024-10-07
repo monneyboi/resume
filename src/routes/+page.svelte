@@ -5,12 +5,18 @@
 
 <h1>Johan Schuijt</h1>
 <p>Wants machines to empower humans. Experienced systems-thinker.</p>
+<address>
+	Wollbell 22<br />
+	6094 Axams<br />
+	<a href="tel:+31651952461">+31651952461</a><br />
+	<a href="mailto:johanschuijt@hotmail.com">johanschuijt@hotmail.com</a>
+</address>
 
 <h2>Experience</h2>
 
 <div>
 	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
-	<p><em>2021 - PRESENT</em></p>
+	<p class="year">2021 - PRESENT</p>
 	<p>
 		Data Team. Design and implementation of the data infrastructure. UX/UI design and development of
 		a RAG application for PDF files.
@@ -19,7 +25,7 @@
 
 <div>
 	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
-	<p><em>2017 - 2021</em></p>
+	<p class="year">2017 - 2021</p>
 	<p>
 		Technical founder. Design and implementation of the infrastructure. Backend development of
 		custom tooling.
@@ -28,7 +34,7 @@
 
 <div>
 	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
-	<p><em>2014 - 2017</em></p>
+	<p class="year">2014 - 2017</p>
 	<p>
 		Involved as a freelancer in several projects, in the capacity of developer both developer and
 		UI/UX designer.
@@ -37,7 +43,7 @@
 
 <div>
 	<h3><strong>1200WD</strong>, Amsterdam — <i>Front-end Developer</i></h3>
-	<p><em>2012 - 2014</em></p>
+	<p class="year">2012 - 2014</p>
 	<p>UI design and front-end development of e-commerce websites.</p>
 </div>
 
@@ -55,7 +61,7 @@
 			<td>15+</td>
 		</tr>
 		<tr>
-			<td>CSS</td>
+			<td>HTML/CSS</td>
 			<td>15+</td>
 		</tr>
 		<tr>
@@ -97,19 +103,19 @@
 
 <div>
 	<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
-	<p><em>2010 - 2011</em></p>
+	<p class="year">2010 - 2011</p>
 	<p>Followed several classes. Stopped before completion.</p>
 </div>
 
 <div>
 	<h3><strong>Hogeschool van Amsterdam</strong>, Amsterdam — <i>Game Development</i></h3>
-	<p><em>2009 - 2010</em></p>
+	<p class="year">2009 - 2010</p>
 	<p>Followed several classes. Stopped before completion.</p>
 </div>
 
 <div>
 	<h3><strong>Luzac College</strong>, Alkmaar — <i>Havo</i></h3>
-	<p><em>2008 - 2009</em></p>
+	<p class="year">2008 - 2009</p>
 	<p>
 		Finished a senior general secondary education. Followed exact sciences and english classes on
 		the pre-scientific level.
@@ -120,7 +126,7 @@
 
 <div>
 	<h3><strong>Drum Machine</strong> — <i>MIDI step sequencer</i></h3>
-	<p><em>2019 - 2020</em></p>
+	<p class="year">2019 - 2020</p>
 	<p>
 		Built a 16 channel MIDI step sequencer for the AKAI APC40 & APC20 controllers. Developed in Rust
 		on the JACK audio stack.
@@ -129,12 +135,13 @@
 
 <div>
 	<h3><strong>Crypto Miner</strong> — <i>Litecoin GPU miner </i></h3>
-	<p><em>2013</em></p>
+	<p class="year">2013</p>
 	<p>Built a 4 GPU Litecoin mining rig.</p>
 </div>
 
 <style>
 	h1 {
+		font-weight: 400;
 		text-transform: uppercase;
 	}
 
@@ -146,13 +153,45 @@
 
 	h3 {
 		font-weight: 400;
+		margin-bottom: 0;
 	}
 
-	em {
-		font-style: normal;
+	.year {
+		color: #a5a5a5;
+		margin-top: 0.5rem;
 	}
 
 	div {
 		margin-bottom: 2rem;
+	}
+
+	table {
+		width: 100%;
+		border-spacing: 0;
+		border-collapse: collapse;
+		margin: 1rem 0;
+	}
+	th,
+	td {
+		margin: 0;
+		padding: 0;
+	}
+
+	th {
+		text-align: left;
+		font-weight: 400;
+	}
+	td:nth-child(2),
+	th:nth-child(2) {
+		text-align: right;
+	}
+
+	a {
+		color: #2c6c2f;
+	}
+
+	strong,
+	th {
+		color: #348037;
 	}
 </style>
