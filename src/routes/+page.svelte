@@ -13,7 +13,7 @@
 			Wollbell 22<br />
 			6094 Axams<br />
 			<a href="tel:+31651952461">+31651952461</a><br />
-			<a href="mailto:johanschuijt@hotmail.com">johanschuijt@hotmail.com</a>
+			<a href="mailto:johan@resolve.works">johan@resolve.works</a>
 		</address>
 	</div>
 
@@ -79,15 +79,15 @@
 			<td>10+</td>
 		</tr>
 		<tr>
+			<td>SQL</td>
+			<td>10+</td>
+		</tr>
+		<tr>
 			<td>Rust</td>
 			<td>2</td>
 		</tr>
 		<tr>
 			<td>Ruby</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>Java</td>
 			<td>1</td>
 		</tr>
 	</table>
@@ -232,9 +232,11 @@
 		color: #348037;
 	}
 
+	/*
 	@media print {
 		.pagebreak {
 			page-break-before: always;
 		}
 	}
+    */
 </style>
