@@ -27,20 +27,28 @@
 	<p class="year">2021 - PRESENT</p>
 	<p>
 		Design and implementation of the data infrastructure for a investigative journalism platform.
-		UX/UI design and development of a RAG application for PDF files.
+		Responsible for a production cluster, built data-pipelines and tools, like a RAG application for
+		PDF files.
 	</p>
 </section>
 
 <section>
 	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
 	<p class="year">2017 - 2021</p>
-	<p>Design and implementation of the infrastructure and backend for a CI/CD hosting company.</p>
+	<p>
+		Design and implementation of the infrastructure and backend for a "zero-config" CI/CD hosting
+		company. Responsible for a production cluster that served as the CI/CD platform for web
+		development agencies.
+	</p>
 </section>
 
 <section>
 	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
 	<p class="year">2014 - 2017</p>
-	<p>Project based freelancer in the capacity of developer or both developer and UI/UX designer.</p>
+	<p>
+		Project based freelancer in the capacity of developer or both developer and UI/UX designer.
+		Developed custom administration systems, APIs and websites.
+	</p>
 </section>
 
 <section>
@@ -96,8 +104,8 @@
 <section>
 	<h3><strong>Tools</strong></h3>
 	<p>
-		GNU/Linux, Vim, Git, Docker/Compose, PostgreSQL, Mysql/MariaDB, ElasticSearch/OpenSearch,
-		RabbitMQ, Svelte, React, Kubernetes, ArgoCD, Argo Workflows, Ansible, LXD.
+		GNU/Linux, Vim, Git, Docker/Compose, Kubernetes, PostgreSQL, Mysql/MariaDB,
+		ElasticSearch/OpenSearch, RabbitMQ, Svelte, React, Ansible, Terraform, Ollama, vLLM.
 	</p>
 </section>
 
