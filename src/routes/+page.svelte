@@ -23,12 +23,20 @@
 <h2>Experience</h2>
 
 <section>
-	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
-	<p class="year">2021 - PRESENT</p>
+	<h3><strong>OpenSanctions</strong>, Berlin — <i>Data Developer</i></h3>
+	<p class="year">2025 - Present</p>
 	<p>
-		Design and implementation of the data infrastructure for a investigative journalism platform.
-		Responsible for a production cluster, built data-pipelines and tools, like a RAG application for
-		PDF files.
+		Builing tooling to extract data on politicians from Wikipedia and the wider web, with the goal
+		of enriching Wikidata.
+	</p>
+</section>
+
+<section>
+	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
+	<p class="year">2021 - 2025</p>
+	<p>
+		Responsible for the data infrastructure of a investigative journalism platform. Built
+		data-pipelines and tools, like a RAG application for PDF files.
 	</p>
 </section>
 
@@ -36,9 +44,9 @@
 	<h3><strong>Forest.host</strong>, Utrecht — <i>Founder</i></h3>
 	<p class="year">2017 - 2021</p>
 	<p>
-		Design and implementation of the infrastructure and backend for a "zero-config" CI/CD hosting
-		company. Responsible for a production cluster that served as the CI/CD platform for web
-		development agencies.
+		Responsible for the infrastructure and backend for a "zero-config" CI/CD hosting company.
+		Responsible for a production cluster that served as the CI/CD platform for web development
+		agencies.
 	</p>
 </section>
 
@@ -61,6 +69,11 @@
 
 <section>
 	<h3><strong>Programming</strong></h3>
+	<p>
+		I have kept up to date with modern development practices throughout my career. I'm well-informed
+		and like to experiment with new technologies. I use language models extensively.
+	</p>
+
 	<table>
 		<tr>
 			<th>Language</th>
@@ -105,7 +118,16 @@
 	<h3><strong>Tools</strong></h3>
 	<p>
 		GNU/Linux, Vim, Git, Docker/Compose, Kubernetes, PostgreSQL, Mysql/MariaDB,
-		ElasticSearch/OpenSearch, RabbitMQ, Svelte, React, Ansible, Terraform, Ollama, vLLM.
+		ElasticSearch/OpenSearch, Neo4J, RabbitMQ, Svelte, React, Ansible, Terraform, Ollama, vLLM.
+	</p>
+</section>
+
+<section>
+	<h3><strong>Communication</strong></h3>
+	<p>
+		Being self-taught also taught me to communicate with anyone, whether technical or not. I can
+		translate complex technical topics to layman's terms, and enjoy helping people understand the
+		problems they face, after which we can solve them together.
 	</p>
 </section>
 
@@ -115,6 +137,11 @@
 </section>
 
 <h2>Education</h2>
+<p>
+	I am a college drop-out that has been programming since childhood. Where school was not
+	challenging, understanding the computer was. I learned to keep learning and am continuously
+	adapting to the changing landscape.
+</p>
 
 <section>
 	<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
@@ -128,28 +155,26 @@
 	<p>Followed several classes. Stopped before completion.</p>
 </section>
 
+<h2>Projects</h2>
+
 <section>
-	<h3><strong>Luzac College</strong>, Alkmaar — <i>Havo</i></h3>
-	<p class="year">2008 - 2009</p>
+	<h3><strong>LLMs</strong> — <i>Wow it can do what?</i></h3>
+	<p class="year">2023 - now</p>
 	<p>
-		Finished a senior general secondary education. Followed exact sciences and english classes on
-		the pre-scientific level.
+		Built a plethora of LLM based tools through agentic coding. For example to filter incoming
+		newsletters, automatically creating cold emails for a list of NGOs, or allowing me to
+		voice-control my sampler.
 	</p>
 </section>
 
 <section>
-	<h3><strong>Horizon College</strong>, Alkmaar — <i>ICT</i></h3>
-	<p class="year">2007 - 2008</p>
-	<p>Followed several classes. Stopped before completion.</p>
+	<h3><strong>Insight</strong> — <i>RAG for researchers</i></h3>
+	<p class="year">2023 - 2025</p>
+	<p>
+		During my time at Follow the Money I've built a open-source RAG system for researchers. This
+		system is set-up to help researchers make sense of huge amounts of documents.
+	</p>
 </section>
-
-<section>
-	<h3><strong>GSG Schagen</strong>, Schagen — <i>Gymnasium</i></h3>
-	<p class="year">2002 - 2007</p>
-	<p>Followed exact sciences track pre university education. Stopped before completion.</p>
-</section>
-
-<h2>Projects</h2>
 
 <section>
 	<h3><strong>Drum Machine</strong> — <i>MIDI step sequencer</i></h3>
