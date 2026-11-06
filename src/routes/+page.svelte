@@ -125,9 +125,9 @@
 
 	<p>
 		GNU/Linux, Vim, Git, Docker/Podman/Compose, Kubernetes, Systemd, PostgreSQL, Mysql/MariaDB,
-		ElasticSearch/OpenSearch, Neo4J, RabbitMQ, Svelte/SvelteKit, React, Ansible/Terraform, DuckDB,
-		Ollama/vLLM/SGLang, Pi, Pydantic AI, OpenID/oAuth. Django/Wagtail, FastAPI, Pydantic, JSON/JSON
-		Schema. Playwright.
+		ElasticSearch/OpenSearch, Neo4J, RabbitMQ, Svelte/SvelteKit, React/Next.js, Ansible/Terraform,
+		DuckDB, Ollama/vLLM/SGLang, Pi, Pydantic AI, OpenID/oAuth. Django/Wagtail, FastAPI, Pydantic,
+		JSON/JSON Schema. Playwright.
 	</p>
 
 	<p>
@@ -171,6 +171,38 @@
 </section>
 
 <h2>Projects</h2>
+
+<section>
+	<h3>
+		<strong><a href="https://everypolitician.org/">EveryPolitician</a></strong> —
+		<i>open political data</i>
+	</h3>
+	<p class="year">2025 - Present</p>
+	<p>
+		An atlas of political offices and their holders across the world, plus the tooling that fills
+		the gaps in it.
+	</p>
+	<ul>
+		<li>
+			<strong
+				><a href="https://github.com/opensanctions/everypolitician.org">everypolitician.org</a
+				></strong
+			> — main website, served from the OpenSanctions API.
+		</li>
+		<li>
+			<strong><a href="https://github.com/opensanctions/poliloom">PoliLoom</a></strong> — extracts statements
+			from the web, humans verify, verified statements flow into Wikidata.
+		</li>
+		<li>
+			<strong><a href="https://github.com/opensanctions/funes">Funes</a></strong> — agentic spider for
+			arbitrary definitions of PEP categories. Agents and queues.
+		</li>
+		<li>
+			<strong><a href="https://github.com/opensanctions/pravda">Pravda</a></strong> — shared evidence
+			layer.
+		</li>
+	</ul>
+</section>
 
 <section>
 	<h3>
