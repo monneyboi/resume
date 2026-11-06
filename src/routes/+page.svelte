@@ -20,16 +20,18 @@
 	<img src={profile} alt="profile" />
 </header>
 
-<h2>Experience</h2>
+<div class="group">
+	<h2>Experience</h2>
 
-<section>
-	<h3><strong>OpenSanctions</strong>, Berlin — <i>Creative Technologist</i></h3>
-	<p class="year">2025 - Present</p>
-	<p>
-		Builing tooling to discover and convert arbitrary public sources into structured data, with the
-		goal of enriching Wikidata.
-	</p>
-</section>
+	<section>
+		<h3><strong>OpenSanctions</strong>, Berlin — <i>Creative Technologist</i></h3>
+		<p class="year">2025 - Present</p>
+		<p>
+			Builing tooling to discover and convert arbitrary public sources into structured data, with
+			the goal of enriching Wikidata.
+		</p>
+	</section>
+</div>
 
 <section>
 	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
@@ -64,55 +66,57 @@
 	<p>UI/UX design and front-end development of e-commerce websites.</p>
 </section>
 
-<h2>Skills</h2>
+<div class="group">
+	<h2>Skills</h2>
 
-<section>
-	<h3><strong>Programming</strong></h3>
-	<p>
-		I continuously keeping up to date with modern development practices throughout my career. I'm
-		well-informed and experiment with new technologies. I use language models and agents
-		extensively.
-	</p>
+	<section>
+		<h3><strong>Programming</strong></h3>
+		<p>
+			I continuously keeping up to date with modern development practices throughout my career. I'm
+			well-informed and experiment with new technologies. I use language models and agents
+			extensively.
+		</p>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Language</th>
-				<th>Years</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Javascript/Typescript</td>
-				<td>~20+</td>
-			</tr>
-			<tr>
-				<td>HTML/CSS</td>
-				<td>~20+</td>
-			</tr>
-			<tr>
-				<td>Python</td>
-				<td>~15+</td>
-			</tr>
-			<tr>
-				<td>SQL</td>
-				<td>~15+</td>
-			</tr>
-			<tr>
-				<td>PHP</td>
-				<td>~10+</td>
-			</tr>
-			<tr>
-				<td>Rust</td>
-				<td>~3</td>
-			</tr>
-			<tr>
-				<td>Ruby</td>
-				<td>~1</td>
-			</tr>
-		</tbody>
-	</table>
-</section>
+		<table>
+			<thead>
+				<tr>
+					<th>Language</th>
+					<th>Years</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Javascript/Typescript</td>
+					<td>~20+</td>
+				</tr>
+				<tr>
+					<td>HTML/CSS</td>
+					<td>~20+</td>
+				</tr>
+				<tr>
+					<td>Python</td>
+					<td>~15+</td>
+				</tr>
+				<tr>
+					<td>SQL</td>
+					<td>~15+</td>
+				</tr>
+				<tr>
+					<td>PHP</td>
+					<td>~10+</td>
+				</tr>
+				<tr>
+					<td>Rust</td>
+					<td>~3</td>
+				</tr>
+				<tr>
+					<td>Ruby</td>
+					<td>~1</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</div>
 
 <section>
 	<h3><strong>Tools</strong></h3>
@@ -155,18 +159,21 @@
 	<p>English, Dutch, German.</p>
 </section>
 
-<h2>Education</h2>
-<p>
-	I am a college drop-out that has been programming since childhood. Schoolwork came easily, so I
-	looked to the computer for a challenge. I learned to keep learning and am continuously adapting to
-	the changing landscape.
-</p>
+<div class="group">
+	<h2>Education</h2>
 
-<section>
-	<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
-	<p class="year">2010 - 2011</p>
-	<p>Followed several classes. Stopped before completion.</p>
-</section>
+	<p>
+		I am a college drop-out that has been programming since childhood. Schoolwork came easily, so I
+		looked to the computer for a challenge. I learned to keep learning and am continuously adapting
+		to the changing landscape.
+	</p>
+
+	<section>
+		<h3><strong>Hogeschool Utrecht</strong>, Utrecht — <i>Media Technology</i></h3>
+		<p class="year">2010 - 2011</p>
+		<p>Followed several classes. Stopped before completion.</p>
+	</section>
+</div>
 
 <section>
 	<h3><strong>Hogeschool van Amsterdam</strong>, Amsterdam — <i>Game Development</i></h3>
@@ -174,37 +181,39 @@
 	<p>Followed several classes. Stopped before completion.</p>
 </section>
 
-<h2>Projects</h2>
+<div class="group">
+	<h2>Projects</h2>
 
-<section>
-	<h3>
-		<strong><a href="https://everypolitician.org/">EveryPolitician</a></strong> —
-		<i>open political data</i>
-	</h3>
-	<p class="year">2025 - Present</p>
-	<p>An atlas of political offices and their holders across the world.</p>
-	<ul>
-		<li>
-			<strong
-				><a href="https://github.com/opensanctions/everypolitician.org">everypolitician.org</a
-				></strong
-			> — main website, served from the OpenSanctions API.
-		</li>
-		<li>
-			<strong><a href="https://github.com/opensanctions/poliloom">PoliLoom</a></strong> — automatically
-			extracts and enriches politicians with information from the web. Humans verify, verified statements
-			flow into Wikidata.
-		</li>
-		<li>
-			<strong><a href="https://github.com/opensanctions/funes">Funes</a></strong> — agentic spider for
-			arbitrary definitions of PEP categories. PEP discovery through multiple agents and queues.
-		</li>
-		<li>
-			<strong><a href="https://github.com/opensanctions/pravda">Pravda</a></strong> — shared evidence
-			layer. Content addressed, human inspectable archive.
-		</li>
-	</ul>
-</section>
+	<section>
+		<h3>
+			<strong><a href="https://everypolitician.org/">EveryPolitician</a></strong> —
+			<i>open political data</i>
+		</h3>
+		<p class="year">2025 - Present</p>
+		<p>An atlas of political offices and their holders across the world.</p>
+		<ul>
+			<li>
+				<strong
+					><a href="https://github.com/opensanctions/everypolitician.org">everypolitician.org</a
+					></strong
+				> — main website, served from the OpenSanctions API.
+			</li>
+			<li>
+				<strong><a href="https://github.com/opensanctions/poliloom">PoliLoom</a></strong> — automatically
+				extracts and enriches politicians with information from the web. Humans verify, verified statements
+				flow into Wikidata.
+			</li>
+			<li>
+				<strong><a href="https://github.com/opensanctions/funes">Funes</a></strong> — agentic spider for
+				arbitrary definitions of PEP categories. PEP discovery through multiple agents and queues.
+			</li>
+			<li>
+				<strong><a href="https://github.com/opensanctions/pravda">Pravda</a></strong> — shared evidence
+				layer. Content addressed, human inspectable archive.
+			</li>
+		</ul>
+	</section>
+</div>
 
 <section>
 	<h3>
@@ -403,6 +412,18 @@
 
 	code {
 		font-size: 0.9em;
+	}
+
+	@media print {
+		section {
+			break-inside: avoid;
+		}
+
+		/* Keeps a heading on the same page as its first block: Firefox does not
+		support break-after: avoid, so the pair has to share one fragmentation unit. */
+		.group {
+			break-inside: avoid;
+		}
 	}
 
 	/*
