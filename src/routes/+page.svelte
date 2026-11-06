@@ -127,13 +127,17 @@
 		GNU/Linux, Vim, Git, Docker/Podman/Compose, Kubernetes, Systemd, PostgreSQL, Mysql/MariaDB,
 		ElasticSearch/OpenSearch, Neo4J, RabbitMQ, Svelte/SvelteKit, React/Next.js, Ansible/Terraform,
 		DuckDB, Ollama/vLLM/SGLang, Pi, Pydantic AI, OpenID/oAuth. Django/Wagtail, FastAPI, Pydantic,
-		JSON/JSON Schema. Playwright.
+		JSON/JSON Schema. Playwright/CDP.
 	</p>
 
 	<p>
-		I've been using coding agents since the early access Claude Code beta program. As I develop more
-		agents, my coding harness has also been changing. I moved to Pi with a set of plugins I
-		developed myself, and currently I'm using a coding harness built on Pi durable.
+		I've been using LLMs since early on, and coding agents since the
+		<a href="https://code.claude.com/">Claude Code</a> early access program. As my understanding of
+		the technology deepens, so does my control over my agentic coding process. After initially
+		moving to
+		<a href="https://pi.dev">Pi</a> with a set of plugins I developed myself, I'm currently using a
+		<a href="https://pi.dev">custom coding harness</a> built on
+		<a href="https://github.com/earendil-works/pi/tree/main/packages/durable">Pi durable</a>.
 	</p>
 </section>
 
@@ -153,9 +157,9 @@
 
 <h2>Education</h2>
 <p>
-	I am a college drop-out that has been programming since childhood. Where school was not
-	challenging, understanding the computer was. I learned to keep learning and am continuously
-	adapting to the changing landscape.
+	I am a college drop-out that has been programming since childhood. Schoolwork came easily, so I
+	looked to the computer for a challenge. I learned to keep learning and am continuously adapting to
+	the changing landscape.
 </p>
 
 <section>
@@ -178,10 +182,7 @@
 		<i>open political data</i>
 	</h3>
 	<p class="year">2025 - Present</p>
-	<p>
-		An atlas of political offices and their holders across the world, plus the tooling that fills
-		the gaps in it.
-	</p>
+	<p>An atlas of political offices and their holders across the world.</p>
 	<ul>
 		<li>
 			<strong
@@ -190,26 +191,28 @@
 			> — main website, served from the OpenSanctions API.
 		</li>
 		<li>
-			<strong><a href="https://github.com/opensanctions/poliloom">PoliLoom</a></strong> — extracts statements
-			from the web, humans verify, verified statements flow into Wikidata.
+			<strong><a href="https://github.com/opensanctions/poliloom">PoliLoom</a></strong> — automatically
+			extracts and enriches politicians with information from the web. Humans verify, verified statements
+			flow into Wikidata.
 		</li>
 		<li>
 			<strong><a href="https://github.com/opensanctions/funes">Funes</a></strong> — agentic spider for
-			arbitrary definitions of PEP categories. Agents and queues.
+			arbitrary definitions of PEP categories. PEP discovery through multiple agents and queues.
 		</li>
 		<li>
 			<strong><a href="https://github.com/opensanctions/pravda">Pravda</a></strong> — shared evidence
-			layer.
+			layer. Content addressed, human inspectable archive.
 		</li>
 	</ul>
 </section>
 
 <section>
 	<h3>
-		<strong><a href="https://github.com/resolveworks/key">Key</a></strong> — <i>agent harness</i>
+		<strong><a href="https://github.com/resolveworks/key">Key</a></strong> —
+		<i>coding agent harness</i>
 	</h3>
 	<p class="year">2026 - Present</p>
-	<p>Coding agent harness. A durable host and a terminal client.</p>
+	<p>A durable transcript host, containerized toolcalling. Parallel worktrees. Multi-client.</p>
 </section>
 
 <section>
