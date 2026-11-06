@@ -27,7 +27,7 @@
 		<h3><strong>OpenSanctions</strong>, Berlin — <i>Creative Technologist</i></h3>
 		<p class="year">2025 - Present</p>
 		<p>
-			Builing tooling to discover and convert arbitrary public sources into structured data, with
+			Building tooling to discover and convert arbitrary public sources into structured data, with
 			the goal of enriching Wikidata.
 		</p>
 	</section>
@@ -37,7 +37,7 @@
 	<h3><strong>Follow the Money</strong>, Amsterdam — <i>Full Stack Developer</i></h3>
 	<p class="year">2021 - 2025</p>
 	<p>
-		Designed, built, and maintained the (cloud) data infrastructure of a investigative journalism
+		Designed, built, and maintained the (cloud) data infrastructure of an investigative journalism
 		platform. Built data-pipelines and a RAG application for PDF files.
 	</p>
 </section>
@@ -47,7 +47,7 @@
 	<p class="year">2017 - 2021</p>
 	<p>
 		Designed, built, and maintained the (hardware) infrastructure and APIs for a "zero-config" CI/CD
-		hosting company focussed on reducing the environmental impact of computing.
+		hosting company focused on reducing the environmental impact of computing.
 	</p>
 </section>
 
@@ -55,7 +55,7 @@
 	<h3><strong>Freelance</strong>, Utrecht — <i>Full Stack Developer</i></h3>
 	<p class="year">2014 - 2017</p>
 	<p>
-		Project based freelancer developer and UI/UX designer. Designed and developed custom
+		Project-based freelance developer and UI/UX designer. Designed and developed custom
 		administration systems, APIs and websites.
 	</p>
 </section>
@@ -72,7 +72,7 @@
 	<section>
 		<h3><strong>Programming</strong></h3>
 		<p>
-			I continuously keeping up to date with modern development practices throughout my career. I'm
+			I continuously keep up to date with modern development practices throughout my career. I'm
 			well-informed and experiment with new technologies. I use language models and agents
 			extensively.
 		</p>
@@ -86,7 +86,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>Javascript/Typescript</td>
+					<td>JavaScript/TypeScript</td>
 					<td>~20+</td>
 				</tr>
 				<tr>
@@ -128,10 +128,10 @@
 	</p>
 
 	<p>
-		GNU/Linux, Vim, Git, Docker/Podman/Compose, Kubernetes, Systemd, PostgreSQL, Mysql/MariaDB,
-		ElasticSearch/OpenSearch, Neo4J, RabbitMQ, Svelte/SvelteKit, React/Next.js, Ansible/Terraform,
-		DuckDB, Ollama/vLLM/SGLang, Pi, Pydantic AI, OpenID/oAuth. Django/Wagtail, FastAPI, Pydantic,
-		JSON/JSON Schema. Playwright/CDP.
+		GNU/Linux, Vim, Git, Docker/Podman/Compose, Kubernetes, Systemd, PostgreSQL, MySQL/MariaDB,
+		Elasticsearch/OpenSearch, Neo4j, RabbitMQ, Svelte/SvelteKit, React/Next.js, Ansible/Terraform,
+		DuckDB, Ollama/vLLM/SGLang, Pi, Pydantic AI, OpenID/OAuth, Django/Wagtail, FastAPI, Pydantic,
+		JSON/JSON Schema, Playwright/CDP.
 	</p>
 
 	<p>
@@ -221,7 +221,7 @@
 		<i>coding agent harness</i>
 	</h3>
 	<p class="year">2026 - Present</p>
-	<p>A durable transcript host, containerized toolcalling. Parallel worktrees. Multi-client.</p>
+	<p>A durable transcript host, containerized tool calling. Parallel worktrees. Multi-client.</p>
 </section>
 
 <section>
@@ -286,8 +286,8 @@
 	</h3>
 	<p class="year">2026</p>
 	<p>
-		A developing research into knowledge extraction from news. Cross-source structural matching
-		through graph deduplication. Using the fact-checked redundancy of the press as a signal.
+		Ongoing research into knowledge extraction from news. Cross-source structural matching through
+		graph deduplication. Using the fact-checked redundancy of the press as a signal.
 	</p>
 </section>
 
@@ -322,7 +322,7 @@
 </section>
 
 <section>
-	<h3><strong>Crypto Miner</strong> — <i>Litecoin GPU miner </i></h3>
+	<h3><strong>Crypto Miner</strong> — <i>Litecoin GPU miner</i></h3>
 	<p class="year">2013</p>
 	<p>Built a 4 GPU Litecoin mining rig.</p>
 </section>
