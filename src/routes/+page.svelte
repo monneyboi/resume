@@ -47,7 +47,7 @@
 	<p class="year">2017 - 2021</p>
 	<p>
 		Designed, built, and maintained the (hardware) infrastructure and APIs for a "zero-config" CI/CD
-		hosting company.
+		hosting company focussed on reducing the environmental impact of computing.
 	</p>
 </section>
 
